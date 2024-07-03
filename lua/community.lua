@@ -17,13 +17,14 @@ return {
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   { import = "astrocommunity.markdown-and-latex.peek-nvim" },
-  { import = "astrocommunity.media.presence-nvim" },
+  { import = "astrocommunity.media.cord-nvim" },
   { import = "astrocommunity.project.projectmgr-nvim" },
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.recipes.heirline-clock-statusline" },
   { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.utility.noice-nvim" },
 
+  -- pack
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.docker" },
