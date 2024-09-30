@@ -18,12 +18,12 @@ return {
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   { import = "astrocommunity.markdown-and-latex.peek-nvim" },
   { import = "astrocommunity.media.cord-nvim" },
-  { import = "astrocommunity.project.projectmgr-nvim" },
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.recipes.heirline-clock-statusline" },
   { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.utility.noice-nvim" },
-
+  { import = "astrocommunity.search.nvim-spectre" },
+  { import = "astrocommunity.workflow.precognition-nvim" },
   -- pack
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.vue" },
@@ -32,9 +32,7 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
-  { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.zig" },
+  { import = "astrocommunity.pack.dart" },
   -- import/override with your plugins folder
 }
